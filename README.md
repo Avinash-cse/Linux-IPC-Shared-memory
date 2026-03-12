@@ -23,6 +23,7 @@ Execute the C Program for the desired output.
 ## Write a C program that illustrates two processes communicating using shared memory.
 
 //sem.c
+//sem.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -129,8 +130,6 @@ if (pid == 0) {  // Child process (Consumer)
     exit(EXIT_SUCCESS);
 }
 }
-
-
 
 ## OUTPUT
 ![Alt text](1.png)
